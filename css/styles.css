@@ -1,8 +1,8 @@
 :root {
-  /* Fonts*/
+  /*Fonts*/
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  /* Text colors*/
+  /*Text colors*/
   --main-txt-cl: #757575;
   --secondary-txt-color: #212121;
   --accent-txt-cl: #2196f3;
@@ -16,10 +16,22 @@ body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
 }
-/*reset styles*/
+/*Кeset styles*/
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+}
+/*Header section*/
+.logo-link {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-txt-cl);
+}
+.logo-accent {
+  color: #000000;
 }
