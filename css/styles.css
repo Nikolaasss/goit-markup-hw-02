@@ -71,9 +71,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accent-txt-cl);
-}
-.header-tel {
   color: inherit;
 }
 /*Hero section*/
@@ -101,6 +98,19 @@ body {
   background-color: var(--accent-txt-cl);
 }
 /*About section*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .about-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -156,6 +166,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-addres:hover,
+.footer-addres:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-txt-cl);
 }
 /*Portfolio section*/
 .projects-btn {
